@@ -18,6 +18,7 @@ cryptography==42.0.5
 cycler==0.12.1
 deep-translator==1.11.4
 distro==1.9.0
+evdev; sys_platform == "linux"
 Flask==3.1.0
 fonttools==4.54.1
 frozenlist==1.4.1
